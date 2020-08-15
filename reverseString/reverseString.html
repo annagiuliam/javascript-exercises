@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <script>
+  const reverseString = function(string) {
+    let newStr = "";
+
+    for (i = string.length -1; i >= 0; i--) {
+        newStr += string[i];
+    }
+    return newStr;
+  }
+
+  console.log(reverseString("hello world"));
+  </script>
+</body>
+</html>
